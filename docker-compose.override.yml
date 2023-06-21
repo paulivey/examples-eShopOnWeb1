@@ -4,6 +4,7 @@ services:
    environment:
      - ASPNETCORE_ENVIRONMENT=Docker
      - ASPNETCORE_URLS=http://+:80
+     - CATALOG_BASE_URL=https://iveyshopstr.blob.core.windows.net
    ports:
      - "5106:80"
    volumes:
